@@ -1,0 +1,19 @@
+cd appfn
+ 
+aws codecommit create-repository --repository-name my-app
+ 
+git config --global credential.helper '!aws codecommit credential-helper $@' 
+
+git config --global credential.UseHttpPath true
+
+git config --global init.defaultBranch main
+
+git init
+
+git add . 
+
+git commit -m "first commit"  
+
+git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/my-app
+
+git push -u origin main
