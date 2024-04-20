@@ -1,15 +1,19 @@
 abstract class Robot implements Speakable {
-    public void process(); // replace public void process(); with public abstract void process();
+    //public abstract void process(); // replace public void process(); with public abstract void process();
+    public void process() {
+        System.out.println("Processing... ");
+    };
 }
 
 class Humanoid extends Robot {
     public void speak(String s) {
-    System.out.println(s);
-}
+        super.process();
+        System.out.println(s);
+    }
 
-public void process() {
-    System.out.println("Helping... ");
-}
+    public void process() {
+        System.out.println("Helping... ");
+    }
 }
 
 interface Speakable {
