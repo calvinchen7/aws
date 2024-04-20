@@ -8,7 +8,7 @@ public class Plant extends Tree{
     public void m4(){}
 
     public static void main(String[] args){
-        Tree t = new Plant();
+        Plant t = new Plant();
         t.m1();
         t.m2();
         t.m3();
