@@ -1,4 +1,5 @@
 public class App {
+
     int foo;
     static int bar;
 
