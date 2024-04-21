@@ -7,6 +7,7 @@ public static void main(String[] args) {
     //int array3[3] = new int[] {1, 2, 3};
     //int array4[] = new int[3]; array4 = {1, 2, 3};
     int array5[] = new int[] {1,2,3};
+    int array6[] = {1,2,3};
 
 }
 
