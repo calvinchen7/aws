@@ -18,7 +18,7 @@ class App {
         }
     }
 
-    void process() throws LogFileException{
+    void process() /* throws LogFileException */{
         System.out.println("Processed");
         throw new LogFileException();
     }
