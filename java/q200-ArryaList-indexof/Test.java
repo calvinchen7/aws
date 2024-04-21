@@ -17,5 +17,8 @@ public class Test {
         Ist.add(new Product(11, "Chocolate"));
         Product p1 = new Product(10, "IceCream");
         System.out.println(Ist.indexOf(p1));
+
+        Ist.add(p1);
+        System.out.println(Ist.indexOf(p1));
     }
 }
