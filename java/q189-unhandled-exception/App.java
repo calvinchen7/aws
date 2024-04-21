@@ -6,7 +6,7 @@ class E2 extends RuntimeException {
 
 public class App {
 
-    public void m1() {
+    public void m1() throws E1 {
         System.out.println("m1.Accessed.");
         throw new E1();
     }
@@ -20,9 +20,13 @@ public class App {
         int level = 1;
         App obj = new App();
         if (level <= 5 && level >= 3) {
-        obj.m1();
+            try {
+                obj.m1();
+            } catch (Exception E1) {
+                // TODO: handle exception
+            }
         } else {
-        obj.m2();
+            obj.m2();
         }
     }
 }
