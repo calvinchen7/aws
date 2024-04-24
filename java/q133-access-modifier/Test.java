@@ -1,19 +1,19 @@
 /* A */
-abstract class A3 {
-    private static int i;
-    public void doStuff(){}
-    public A3(){}
+    abstract class A3 {
+        private static int i;
+        public void doStuff(){}
+        public A3(){}
     }
     
     /* B */
     final class A1 {
-    public A1(){}
+        public A1(){}
     }
     
     /* C */
     private class A2{ // Illegal Modifier for the class A2
-    private static int i;
-    private A2(){}
+        private static int i;
+        private A2(){}
     }
     
     /* D */
