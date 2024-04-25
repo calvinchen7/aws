@@ -8,15 +8,15 @@ public class Test {
             switch (s) {
                 case "sat":
                 case "sun":
-                wd--;
-                System.out.println(wd + " sun ");
+                    wd--;
+                    System.out.println(wd + " sun ");
                 break;
                 case "mon":
-                wd++;
-                System.out.println(wd + " mon ");
+                    wd++;
+                    System.out.println(wd + " mon ");
                 case "wed":
-                wd += 2;
-                System.out.println(wd + " wed ");
+                    wd += 2;
+                    System.out.println(wd + " wed ");
             }
         }
         System.out.print(wd + " ");

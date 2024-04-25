@@ -6,7 +6,7 @@ class Vehicle {
     Vehicle(int x) {
     this.x=x;
     }
-}
+p}
 
 class Car extends Vehicle {
     int y;
