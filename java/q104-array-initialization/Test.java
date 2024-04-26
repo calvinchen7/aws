@@ -12,6 +12,12 @@ public class Test {
         for (int x : numbers) {
             System.out.println(" " + x);
         }
+
+        numbers = new int[10];
+        for (int x : numbers)
+        {
+            System.out.println(x);
+        }
     }
 
 }
