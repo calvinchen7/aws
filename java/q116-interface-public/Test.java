@@ -4,7 +4,8 @@
     }
         
     class Tool implements Exportable {
-        protected void export () { // line n1 - throwIllegalAccessError
+        // protected void export () { // line n1 - throwIllegalAccessError
+        public void export() {
             System.out.println("Tool::export");
         }
     }
