@@ -13,8 +13,11 @@ public class Test {
         zoneId
         );
         ZonedDateTime anHourLater = zdt.plusHours(1);
+        System.out.println(zdt.getHour() + " " + anHourLater.getHour());
         System.out.println(zdt.getHour() == anHourLater.getHour());
-        System.out.print(zdt.getOffset().equals(anHourLater.getOffset()));
+
+        System.out.println(zdt.getOffset() + " " + anHourLater.getOffset());
+        System.out.println(zdt.getOffset().equals(anHourLater.getOffset()));
     }
 
 }
