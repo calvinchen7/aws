@@ -17,8 +17,10 @@ public class Main {
     }
     
     public static void main(String[] args) {
-    doSum(10, 20);
-    doSum(10.0, 20.0);
-    
+        Integer x = 5;
+        Integer y = 10;
+        doSum(10, 20);
+        doSum(10.0, 20.0);
+        doSum(x, y);
     }
 }
