@@ -8,5 +8,6 @@ public class Test {
             //removed from arraylist.
             System.out.println(" removed");
         }
+        System.out.println(arrList.size());
     }   
 }
