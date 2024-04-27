@@ -18,8 +18,8 @@ public class Test {
 
     public static void method1() {
     try {
-            throw new IOException();
-            // throw 3 > 10 ? new MyException() : new IOException();
+            // throw new IOException();
+            throw 3 > 10 ? new MyException() : new IOException();
         } catch (IOException ie) {
             System.out.println("I");
         }catch(Exception re ){
