@@ -11,7 +11,7 @@ public class shop {
                 break;
             case "2":
                 discount = price * 0.5;
-                //continue;
+                continue;
             default:
                 System.out.println("Thank you!");
         }
