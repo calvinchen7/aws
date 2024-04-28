@@ -4,7 +4,7 @@ public class StockRoom {
     public void purchase(int q) {stock += q; this.qty = q;}
     public void sell(int q) {stock -= q; this.qty = q;}
     public static void printStock(String action ) {
-    System.out.println(action + ":" + qty + " items. Stock in Hand: " + stock);
+        System.out.println(action + ":" + qty + " items. Stock in Hand: " + stock);
     }
     
     public static void main (String[] args) {

@@ -11,8 +11,8 @@ public class Test {
     public static void doSum(float x, float y) {
         System.out.println("float sum is " + (x + y));
     }
-    
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
         doSum(10, 20);
         doSum(10.0, 20.0);
     }

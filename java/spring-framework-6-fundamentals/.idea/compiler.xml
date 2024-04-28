@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="conference" />
+        <module name="conference-java" />
+        <module name="conference-java (5)" />
+        <module name="conference-java (6)" />
+        <module name="conference-xml (1)" />
+        <module name="conference (1)" />
+        <module name="conference-xml" />
+        <module name="conference (3)" />
+        <module name="conference (2)" />
+        <module name="conference (5)" />
+        <module name="conference (4)" />
+        <module name="conference-java (3)" />
+        <module name="conference (7)" />
+        <module name="conference (6)" />
+        <module name="conference-java (4)" />
+        <module name="conference-java (1)" />
+        <module name="conference-java (2)" />
+        <module name="conference (8)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
