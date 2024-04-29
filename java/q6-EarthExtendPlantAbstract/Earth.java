@@ -13,9 +13,9 @@ class Earth extends Plant {
 //             ^
 //  attempting to assign weaker access privileges; was protected 
 // 1 error
-	protected void revolve() {
-	// public void revolve() {
-	}
+	// void revolve() {}
+	protected void revolve() { }
+	// public void revolve() { }
 
 	protected void rotate() {
 	}
