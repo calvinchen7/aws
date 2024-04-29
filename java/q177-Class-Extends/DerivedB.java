@@ -16,6 +16,10 @@ class DerivedB extends DerivedA {
         b1 = (Base) b2;
         b1.test();
         b4.test();
+
+
+        b1.baseTest();
+        b4.baseTest();
 }
 
 }
