@@ -16,6 +16,12 @@ class C1 extends C2 implements I {
     
     public class Test {
     public static void main(String[] args) {
+        I obj4 = new C1();
+        C1 obj5 = obj4;
+        obj5.displayC2();
+        obj5.displayI();
+
+
         C2 obj1 = new C1();
         I obj2 = new C1();
         

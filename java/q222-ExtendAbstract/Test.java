@@ -1,9 +1,7 @@
 abstract class Robot implements Speakable {
-    public void process() {};
+    // public void process() {};
+    public void process();
     // abstract void process(); // replace public void process(); with public abstract void process();
-    //public void process() {
-    //    System.out.println("Processing... ");
-    //};
 
     public void test() {};
 }
@@ -35,7 +33,6 @@ public class Test {
     r.process();
     r.speak("Done");
     r.test();
-    r.HumanoidTest();
     
     }
 }

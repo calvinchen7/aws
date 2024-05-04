@@ -5,6 +5,7 @@ public class Test {
         int wd = 0;
         String days[] = {"sun", "mon", "wed", "sat"};
         for (String s : days) {
+            System.out.println("----------------------");
             switch (s) {
                 case "sat":
                 case "sun":

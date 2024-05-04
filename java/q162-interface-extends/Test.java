@@ -1,4 +1,6 @@
-    interface I {
+import javax.crypto.CipherInputStream;
+
+interface I {
         public void displayI();
     }
     
@@ -17,22 +19,26 @@
     public class Test {
     
         public static void main(String[] args) {
-        
-        C2 obj1 = new C1();
-        I obj2 = new C1();
-        
-        C2 s = (C2) obj2;
 
-        //C2 s = obj2;
-        //Test.java:25: error: incompatible types: I cannot be converted to C2
-        //C2 s = obj2;
-        //       ^
-        //1 error
-
-        I t = obj1;
+            C1 c1 = new C1();
+            C1 c2 = c1;
+            I ic1 = c1;
+            ic1.displayI();
+            
+            //c1 = ic1;
+            //Test.java:27: error: incompatible types: I cannot be converted to C1
+            //c1 = ic1;
+            //     ^   
+            //1 error
         
-        t.displayI();
-        s.displayC2();
+            C2 obj1 = new C1();
+            I obj2 = new C1();
+            
+            C2 s = (C2) obj2;
+            I t = obj1;
+            
+            t.displayI();
+            s.displayC2();
         
         }
     

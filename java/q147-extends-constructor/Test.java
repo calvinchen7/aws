@@ -27,9 +27,9 @@
             return super.x + ":" + this.y;
         }
 
-        public String myString() {
-            return super.x + ":" + this.y;
-        }
+        //public String myString() {
+        //    return super.x + ":" + this.y;
+        //}
     }
     
     public class Test {
@@ -37,8 +37,11 @@
         public static void main(String[] args) {
             Vehicle y = new Car(20);
             System.out.println(y);
-            System.out.println(y.toString());
-            System.out.println(y.myString());
+
+            Vehicle x = new Vehicle();
+            System.out.println(x);
+            //System.out.println(y.toString());
+            //System.out.println(y.myString());
         }
     
     }
